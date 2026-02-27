@@ -1,0 +1,31 @@
+iio:device4: cf-ad9361-lpc (buffer capable)
+		2 channels found:
+			voltage0:  (input, index: 0, format: le:S12/16>>0)
+			7 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: calibphase value: 0.000000
+				attr  2: calibscale value: 1.000000
+				attr  3: label ERROR: Function not implemented (38)
+				attr  4: samples_pps ERROR: No such device (19)
+				attr  5: sampling_frequency value: 30719999
+				attr  6: sampling_frequency_available value: 30719999 3839999 
+			voltage1:  (input, index: 1, format: le:S12/16>>0)
+			7 channel-specific attributes found:
+				attr  0: calibbias value: 0
+				attr  1: calibphase value: 0.000000
+				attr  2: calibscale value: 1.000000
+				attr  3: label ERROR: Function not implemented (38)
+				attr  4: samples_pps ERROR: No such device (19)
+				attr  5: sampling_frequency value: 30719999
+				attr  6: sampling_frequency_available value: 30719999 3839999 
+		2 device-specific attributes found:
+				attr  0: sync_start_enable value: disarm
+				attr  1: sync_start_enable_available value: arm
+		2 buffer-specific attributes found:
+				attr  0: data_available value: 0
+				attr  1: length_align_bytes value: 8
+		2 debug attributes found:
+				debug attr  0: pseudorandom_err_check value: CH0 : PN9 : Out of Sync : PN Error
+CH1 : PN9 : Out of Sync : PN Error
+				debug attr  1: direct_reg_access value: 0x0
+		No trigger on this device

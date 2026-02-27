@@ -1,0 +1,55 @@
+iio:device3: cf-ad9361-dds-core-lpc (buffer capable)
+		6 channels found:
+			voltage0:  (output, index: 0, format: le:S16/16>>0)
+			4 channel-specific attributes found:
+				attr  0: calibphase value: 0.000000
+				attr  1: calibscale value: 1.000000
+				attr  2: sampling_frequency value: 30719999
+				attr  3: sampling_frequency_available value: 30719999 3839999 
+			voltage1:  (output, index: 1, format: le:S16/16>>0)
+			4 channel-specific attributes found:
+				attr  0: calibphase value: 0.000000
+				attr  1: calibscale value: 1.000000
+				attr  2: sampling_frequency value: 30719999
+				attr  3: sampling_frequency_available value: 30719999 3839999 
+			altvoltage3: TX1_Q_F2 (output)
+			6 channel-specific attributes found:
+				attr  0: frequency value: 9279985
+				attr  1: label value: TX1_Q_F2
+				attr  2: phase value: 0
+				attr  3: raw value: 1
+				attr  4: sampling_frequency value: 30719999
+				attr  5: scale value: 0.000000
+			altvoltage1: TX1_I_F2 (output)
+			6 channel-specific attributes found:
+				attr  0: frequency value: 9279985
+				attr  1: label value: TX1_I_F2
+				attr  2: phase value: 90000
+				attr  3: raw value: 1
+				attr  4: sampling_frequency value: 30719999
+				attr  5: scale value: 0.000000
+			altvoltage0: TX1_I_F1 (output)
+			6 channel-specific attributes found:
+				attr  0: frequency value: 9279985
+				attr  1: label value: TX1_I_F1
+				attr  2: phase value: 90000
+				attr  3: raw value: 1
+				attr  4: sampling_frequency value: 30719999
+				attr  5: scale value: 0.000000
+			altvoltage2: TX1_Q_F1 (output)
+			6 channel-specific attributes found:
+				attr  0: frequency value: 9279985
+				attr  1: label value: TX1_Q_F1
+				attr  2: phase value: 0
+				attr  3: raw value: 1
+				attr  4: sampling_frequency value: 30719999
+				attr  5: scale value: 0.000000
+		2 device-specific attributes found:
+				attr  0: sync_start_enable value: arm
+				attr  1: sync_start_enable_available value: arm
+		2 buffer-specific attributes found:
+				attr  0: data_available value: 0
+				attr  1: length_align_bytes value: 8
+		1 debug attributes found:
+				debug attr  0: direct_reg_access value: 0x90162
+		No trigger on this device
